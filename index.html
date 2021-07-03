@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Dokterku</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+
+<nav class="navbar sticky-top  navbar-expand-lg navbar-light py-3 px-5" >
+  
+  <a href="index.html" class="navbar-brand text-uppercase text-primary" style="font-weight: bold;"><img class="mr-3" src="img/logoku.png" width="30" height="30" alt="LogoDokterku">Dokterku</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" >
+    <ul class="nav navbar-nav ml-auto" >
+      <li class="nav-item active"> 
+        <a class="nav-link text-primary aktif" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link text-primary" href="artikel.html">Artikel</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-primary" href="dokter.html">Dokter</a>
+      </li>
+      <li class="nav-item" id="usernav">
+         
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="welcome" class="mb-0 mini">
+</div>
+
+<center>
+    <section class="pb-4 pt-3 col-12 col-md-10 col-sm-10">
+        <div id="carouselku" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselku" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselku" data-slide-to="1" class=""></li>
+            <li data-target="#carouselku" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner ">
+            <div class="carousel-item active" style="background-image: url('img/slider1.jpeg')"></div>
+            <div class="carousel-item" style="background-image: url('img/slider1.jpeg')"></div>
+            <div class="carousel-item" style="background-image: url('img/slider1.jpeg')"></div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselku" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselku" role="button" data-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+</center>
+
+
+<section class="py-5 col-12  " >  
+    <div class="container "> 
+       <div class="row" style="display: flex;justify-content: space-around;"> 
+        <div class="col-md-2 " >
+          <div class="card" style="height: 200px;">
+              <div class="card-title text-center py-3">
+                <img class="mx-auto d-block rounded-circle" src="img/corona.webp" style="width: 75px;height: 75px;">  
+                <h5 class="pt-4">Info COVID-19</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-2 ">
+          <div class="card" style="height: 200px;">
+              <div class="card-title text-center py-3">
+                <img class="mx-auto d-block rounded-circle" src="img/stress.jpg" style="width: 75px;height: 75px;">  
+                <h5 class="pt-4">Gejala Cemas</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-2 ">
+          <div class="card" style="height: 200px;">
+              <div class="card-title text-center py-3">
+                <img class="mx-auto d-block rounded-circle" src="img/rumah-sakit-icon.webp" style="width: 75px;height: 75px;">  
+                <h5 class="pt-4">Klinik Terdekat</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-2 ">
+          <div class="card" style="height: 200px;">
+              <div class="card-title text-center py-3">
+                <img class="mx-auto d-block rounded-circle" src="img/jadwal.jpeg" style="width: 75px;height: 75px;">  
+                <h5 class="pt-4">Buat Jadwal dengan Dokter</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-2 ">
+          <div class="card" style="height: 200px;">
+              <div class="card-title text-center py-3">
+                <img class="mx-auto d-block rounded-circle" src="img/tanya-dokter-icon.webp" style="width: 75px;height: 75px;">  
+                <h5 class="pt-4">Chat dengan Dokter</h5>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="col-12 pb-5">
+      <h3 class="page-section-heading text-center text-uppercase text-primary mb-0">Tentang Dokterku</h3>
+      <hr style="width: 80%">
+    </div>
+  <div class="row featurette">
+    <div class="col-md-5 order-md-2 pb-3 ">
+      <img class="img-fluid" src="img/dokterku_aboutus.jpg"></img>
+    </div>
+    <div class="col-md-7 order-md-1">
+        
+        <p class="lead bigg" style="text-align: justify;"> Aplikasi <span class="text-primary ">DOKTERKU</span> Merupakan media untuk pasien yang menderita gangguan dan gejala kecemasan berlebihan. Aplikasi ini telah ada sejak November 2020. <br>
+        Tujuan dari dibuatnya aplikasi ini yaitu sebagai alternatif bagi pasien untuk menghubungi psikiater ditengah pandemi COVID-19. maka dari itu aplikasi ini menyediakan fitur chat dan pembuatan jadwal. Protokol Kesehatan sangat diperhatikan dalam setiap jadwal yang ada.</p>
+
+        <div class="row col-md-7 pt-4 d-flex" style="justify-content: space-between; ">
+          
+          <button type="button" class="btn btn-outline-primary">Chat Dengan Dokter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="py-5 art">
+  <div class="container">
+    <div class="col-12 pb-5">
+            <h3 class="page-section-heading text-center text-uppercase text-primary mb-0">Artikel Terbaru</h3>
+              <hr style="width: 80%">
+        </div>
+<div class="row">
+<div class="col-md-5">
+  <div class="col-12">
+    <img class="rounded shadow mb-3" src="img/artikel1.webp" style=" width: 100%;">
+    <h2 class="mini" ><a class="text-primary" href="artikel.html">Fakta Vaksin Corona Moderna Dibanderol Seharga Rp 300 ribuan</a></h2>
+    <p  class="mb-3 mini">VModerna, perusahaan bioteknologi asal Amerika Serikat (AS). Mereka mengembangkan vaksin virus corona bekerja sama dengan National Institutes of Health. Vaksin yang dikembangkan diberi nama mRNA-1273 dan dibanderol sebesar <a class="text-primary" href="artikel.html"> Selengkapnya </a></p>
+    <div class="post-meta mini" >
+        <span class="d-block"><a href="https://instagram.com/natyulius">Dokterku</a></span>
+      <span class="date-read">12 Nov 2020 22:07</span>
+    </div>
+  </div>
+</div>
+<div class="col-md-7">
+        <div class="row featurette pb-3">
+            <div class="col-md-12 d-flex align-items-center mini" style="justify-content: space-between;">
+             <h4 class="text-secondary">Recent Post</h4>
+             <a href="#"><h6 class="mx-3 text-primary">See More</h6></a>
+            </div>
+        </div>
+        <div class="row featurette pb-3">
+            <div class="col-md-12">
+              <div class="post-entry-2 d-flex">
+                <div class=" col-md-4  col-xs-3 col-sm-3 order-md-2 px-2 " ><img class="rounded shadow" src="img/artikel1.webp" style=" width: 100%;"></div>
+                  <div class=" col-md-8 col-xs-9 col-sm-9 order-md-1 pl-0">
+                    <h2 class="mini" ><a class="text-primary" href="artikel.html">Fakta Vaksin Corona Moderna Dibanderol Seharga Rp 300 ribuan</a></h2>
+                      <p  class="mb-3 mikro">VModerna, perusahaan bioteknologi asal Amerika Serikat (AS). Mereka mengembangkan vaksin virus corona bekerja sama dengan National Institutes of Health. Vaksin yang dikembangkan diberi nama mRNA-1273 dan dibanderol sebesar <a class="text-primary" href="artikel.html"> Selengkapnya </a></p>
+                      <div class="post-meta mikro" >
+                      <span class="d-block"><a href="https://instagram.com/natyulius">Dokterku</a></span>
+                    <span class="date-read">12 Nov 2020 22:07</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row featurette pb-3">
+            <div class="col-md-12">
+              <div class="post-entry-2 d-flex">
+                <div class="col-md-4 col-xs-3 col-sm-3 order-md-2 px-2 " ><img class="rounded shadow" src="img/artikel2.webp" style=" width: 100%;"></div>
+                  <div class=" col-md-8 col-xs-9 col-sm-9 order-md-1 pl-0">
+                    <h2 class="mini"><a  class="text-primary" href="artikel.html">Anak Juga Bisa Alami Hipertensi, Ini Penyebabnya</a></h2>
+                      <p class="mikro mb-3">Hipertensi pada anak di bawah usia 6 tahun biasanya disebabkan oleh kondisi medis. Penyebabnya hampir sama dengan yang dialami orang dewasa, yaitu... <a class="text-primary" href="artikel.html"> Selengkapnya </a></p>
+                      <div class="post-meta mikro">
+                      <span class="d-block"><a href="https://instagram.com/natyulius">Dokterku</a> </span>
+                    <span class="date-read">9 Nov 2020 22.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row featurette pb-3">
+            <div class="col-md-12">
+              <div class="post-entry-2 d-flex">
+                <div class="col-md-4 col-xs-3 order-md-2 px-2 col-sm-3" ><img class="rounded shadow" src="img/artikel3.webp" style=" width: 100%;"></div>
+                  <div class="col-md-8 col-xs-9 col-sm-9 order-md-1 pl-0">
+                    <h2  class="mini"><a class="text-primary" href="artikel.html">Olahraga Berlebihan Bisa Membuat Insomnia, Ini Alasannya</a></h2>
+                      <p class="mikro mb-3">Olahraga menjadi salah satu kegiatan yang memiliki banyak manfaat bagi kesehatan. Mulai dari menjaga berat badan, hingga membantu metabolisme tubuh tetap optimal dapat dirasakan sebagai dampak positif dari rutin berolahraga. Namun, <a class="text-primary" href="artikel.html"> Selengkapnya </a></p>
+                      <div class="post-meta mikro">
+                      <span class="d-block"><a href="https://instagram.com/natyulius">Dokterku</a> </span>
+                    <span class="date-read">6 Sep 2019 14:00 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+<section class="py-5 text-white cta " >
+  <div class="container-fluid" >
+    <div class="col-md-12 text-center py-5" >
+      <h2 class="blogg"> ANDA SERING MERASA CEMAS AKAN SUATU HAL?</h2>
+      <p class="mini text-center"> Segera Periksakan dengan ahlinya melalui <span class="text-white"> DOKTERKU </span></p>
+      <br>
+      <a role="button" href="dokter.html" type="button" class="btn btn-primary text-primary bg-white"> HUBUNGI PSIKIATER SEKARANG</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="py-5 footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-xs-12">
+        <h4> <img src="img/logoku.png" class="mr-3" style="width: 40px;height: 40px">DOKTERKU</h4>
+       
+       
+      </div>
+      <div class="col-lg-3 col-xs-12 ">
+       
+          <ul class="m-0 p-0 ">
+            <li><a class="text-white" href="#">Halaman Utama</a></li>
+            <li><a class="text-white" href="#">Artikel</a></li>
+            <li><a class="text-white" href="#">Chat Doktor</a></li>
+            <li><a class="text-white" href="#">Klinik Terdekat</a></li>
+            <li><a class="text-white" href="#">Buat Jadwal</a></li>
+            <li><a class="text-white" href="#">Login /  Register</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-4 col-xs-12">
+        <p>Salatiga 23, Jawa Tengah, Indonesia</p>
+        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(+62) 895-0178-4227</p>
+        <p><i class="fa fa-envelope-o mr-3"></i>lieeyulius@gmail.com</p>
+      </div>
+    </div>
+    <div class="row mt-5 mb-0">
+      <div class="col-12 text-center">
+        <p class=""><small > Dokterku © 2020. Syarat dan Ketentuan Berlaku.</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>

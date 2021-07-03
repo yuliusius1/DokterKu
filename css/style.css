@@ -1,0 +1,109 @@
+
+* {
+ 	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	background: #E6E6FA;
+}
+
+.carousel-item {
+  height: 50vh;
+ 
+  min-height: 350px;
+  border-radius: 5px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.checkbox {
+	border: 2px solid #0079bf;
+}
+
+
+.dokter {
+	margin-bottom: 20px;
+}
+
+.art {
+	background: #ADBCFF;
+background: -webkit-linear-gradient(bottom, #ADBCFF, #E6E6FA);
+background: -moz-linear-gradient(bottom, #ADBCFF, #E6E6FA);
+background: linear-gradient(to top, #ADBCFF, #E6E6FA);
+}
+
+.cta {
+	background: rgba(146, 165, 255, 1.0);
+background: -webkit-linear-gradient(top, rgba(146, 165, 255, 1.0), rgba(1, 33, 184, 1.0));
+background: -moz-linear-gradient(top, rgba(146, 165, 255, 1.0), rgba(1, 33, 184, 1.0));
+background: linear-gradient(to bottom, rgba(146, 165, 255, 1.0), rgba(1, 33, 184, 1.0));
+}
+
+.navbar {
+	background: #fff;
+}
+
+.footer {
+	  background: #010621; 
+	  color:white;
+}
+
+.aktif {
+	font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+  .blog {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .mini {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .bigg {
+  	font-size: 22px;
+  }
+  .rp {
+  	font-size: 14px;
+    text-align: justify;
+  }
+  .mikro {
+  	font-size: 12px;
+  	text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .mini {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .bigg {
+  	font-size: 16px;
+  }
+
+  .rp {
+  	font-size: 12px;
+    text-align: justify;
+  }
+  .mikro {
+  	font-size: 10px;
+  	text-align: justify;
+  }
+}
